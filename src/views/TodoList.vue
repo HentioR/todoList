@@ -9,7 +9,7 @@
   <br>
 
   <sidebar :lists="lists" v-model="selected" v-on:change="selectList($event)"></sidebar>
-  <!--- <sidebar-new-list :lists="lists" v-model="newListName" v-on:submit.prevent="addNewList()"></sidebar-new-list> --->
+  <!-- <sidebar-new-list :lists="lists" v-model="newListName" v-on:submit.prevent="addNewList()"></sidebar-new-list> -->
 </label>
 
 <p class="text-blue-300">
